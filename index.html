@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="form-container">
+    <h1>Login</h1>
+    <form id="registerForm">
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="example@gmail.com">
+        <div class="error-message" id="email-error">introduce un correo valido!</div>
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="********">
+        <div class="error-message" id="password-error">Debe tener al menos 8 caracteres.</div>
+      </div>
+      <button id="button" type="submit">Send</button>
+    </form>
+  </div>
+  <script src="./formulario.js"></script>
+</body>
+</html>
